@@ -122,13 +122,29 @@ hr {
 	
 }
 
-#navbar-header {
+
+  @media only screen and (orientation: landscape) {
+    #navbar-header {
     overflow: hidden; 
     margin-top: -400px;
     margin-left: -760px;
     padding-left: -1%;
  	padding-top: 186px;
- 	margin-bottom: -190px
+ 	margin-bottom: -190px;
+    }
+}
+ 
+ @media only screen and (orientation: portrait) {
+    #navbar-header {
+    overflow: hidden; 
+    margin-top: -400px;
+    margin-left: -760px;
+    padding-left: -1%;
+ 	padding-top: 15%;
+ 	margin-bottom: -190px;
+    }
+}
+
 
 
 	
