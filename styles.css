@@ -1,0 +1,136 @@
+body {
+	background: white;
+	margin-bottom: 70px;
+}
+.jumbotron {
+	position: relative;
+    background: #000 url("test.png") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+	margin: 70px 0 0 0;
+	color: white;
+	min-height: 275px
+}
+@media only screen and (orientation: portrait) {
+    .jumbotron {
+        background: black;
+        min-height: 210px;
+    }
+}
+	
+.jumbotron h2 {
+	margin-top: 1%;
+	text-align: left;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: red;
+   margin-left: 8px;
+
+	
+}
+.jumbotron p {
+	font-style: italic;
+   -webkit-text-stroke-color: white;
+   text-align: left;
+   margin: 0;
+   padding: 0;
+   margin-left: 8px;
+
+}
+#Buttons {
+	margin-top: 20px;
+	margin-left: 8px;
+
+}
+#text h3 {
+	text-align: center;
+	font-family: "Tahoma";
+	font-weight: bold;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+    border-color: black;
+}
+#content {
+	text-align: left;
+}
+.row h4 {
+	color: #65a0ff;
+   font-family: Tahoma;
+    font-weight: bold;
+
+}
+#FAQ-Title {
+	font-family: Tahoma;
+	font-weight: bold;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   text-align: center;
+	
+}
+.breadcrumb {
+	margin: 70px 0 0 0;
+	background: black;
+}
+.breadcrumb li {
+	font-weight: bold;
+	margin-left: 3.5%;
+	margin-right: -3.5%;
+	margin-top: 6px;
+}
+.breadcrumb { background: linear-gradient(gray, white); border: 3px solid rgba(0, 0, 0, 1); border-right-style: none; border-left-style: none; border-radius: 4px; display: block;}
+
+#button{
+	text-align: right;
+	margin-top: -150px;
+	margin-right: 4%;
+}
+
+#questions h4 {
+	font-size: 20px;
+   font-weight: bold;
+   color: #0000b3;
+   font-family: Tahoma;
+   font-variant: small-caps;
+}	
+
+#questions p {
+	font-family: Tahoma;
+	
+}
+
+#navbar-header {
+    overflow: hidden; 
+    margin-top: -400px;
+    margin-left: -760px;
+    padding-left: -1%;
+    padding-top: 15%;
+    margin-bottom: -190px;
+#image
+	margin-bottom: 100px;
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+  }
+}
+
+
+
+	
+	
