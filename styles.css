@@ -24,6 +24,7 @@ body {
     	visibility: hidden;
     }
 }
+
 @media only screen and (orientation: portrait) {
     #navbar-header{
     	visibility: hidden;
@@ -88,21 +89,23 @@ hr {
 }
 .breadcrumb {
 	margin: 70px 0 0 0;
-	background: #000 url("logo.png");
+	
+
 	
 }
 .breadcrumb li {
 	font-weight: bold;
 	margin-left: 3.5%;
 	margin-right: -3.5%;
-	margin-top: 6px;
+	margin-top: 10px;
+	
 	
 }
 .breadcrumb { background: linear-gradient(gray, white); border: 3px solid rgba(0, 0, 0, 1); border-right-style: none; border-left-style: none; border-radius: 4px; display: block;}
 
 #button{
 	text-align: right;
-	margin-top: -150px;
+
 	margin-right: 4%;
 }
 
@@ -124,26 +127,8 @@ hr {
     margin-top: -400px;
     margin-left: -760px;
     padding-left: -1%;
-    padding-top: 15%;
-    margin-bottom: -190px;
-#image
-	margin-bottom: 100px;
-@media (max-width: 768px) {
-  .btn-responsive {
-    padding:2px 4px;
-    font-size:80%;
-    line-height: 1;
-    border-radius:3px;
-  }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-  .btn-responsive {
-    padding:4px 9px;
-    font-size:90%;
-    line-height: 1.2;
-  }
-}
-
+ 	padding-top: 186px;
+ 	margin-bottom: -190px
 
 
 	
