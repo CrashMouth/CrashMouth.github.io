@@ -19,6 +19,18 @@ body {
         min-height: 210px;
     }
 }
+@media only screen and (orientation: portrait) {
+    #button{
+    	visibility: hidden;
+    }
+}
+@media only screen and (orientation: portrait) {
+    #navbar-header{
+    	visibility: hidden;
+    }
+}
+		
+		
 	
 .jumbotron h2 {
 	margin-top: 1%;
@@ -76,13 +88,15 @@ hr {
 }
 .breadcrumb {
 	margin: 70px 0 0 0;
-	background: black;
+	background: #000 url("logo.png");
+	
 }
 .breadcrumb li {
 	font-weight: bold;
 	margin-left: 3.5%;
 	margin-right: -3.5%;
 	margin-top: 6px;
+	
 }
 .breadcrumb { background: linear-gradient(gray, white); border: 3px solid rgba(0, 0, 0, 1); border-right-style: none; border-left-style: none; border-radius: 4px; display: block;}
 
