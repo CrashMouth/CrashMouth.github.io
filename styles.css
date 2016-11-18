@@ -178,5 +178,8 @@ hr {
 	font-weight: bold; 
 	color: #308c24;
 }
-	
+.paypal {
+	text-align: right;
+	margin-top: 11px;
+}
 	
